@@ -12,6 +12,13 @@ export const Container = styled.div`
     justify-content: space-between;
     align-items: center;
 
+    @media (max-width: 500px)
+    {
+      flex-direction: column;
+      align-items: start;
+      gap: 1rem;
+    }
+
     button {
       background: #D9043D;
       color: #fff;
@@ -23,15 +30,17 @@ export const Container = styled.div`
       transition: background 0.2s;
 
       &:hover {
-        background: ${darken(0.06, '#7159c1')};
+        background: ${darken(0.06, '#D9043D')};
       }
     }
   }
 `;
-
+export const ContainerProductTable = styled.div`
+  overflow: auto;
+`
 export const ProductTable = styled.table`
   width: 100%;
-
+  min-width: 600px;
   thead th {
     color: #999;
     text-align: left;
