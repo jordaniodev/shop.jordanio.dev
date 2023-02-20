@@ -46,4 +46,4 @@
    <li>Alteração de quantidade de produtos no carrinho.</li>
 </ol>
 <h2>Demo</h2>
-<p>Para acessar a pagina demo basta acessar o link <a href="https://ecomercjordanio.netlify.app/">https://ecomercjordanio.netlify.app/</a></p>
+<p>Para acessar a pagina demo basta acessar o link <a href="https://shopjordanio.netlify.app/">https://shopjordanio.netlify.app/</a></p>
